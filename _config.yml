@@ -12,10 +12,10 @@ description: "「网络安全技术学堂」分享、记录、成长"
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/logo.jpg
+avatar: https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/logo.jpg
 #avatar: https://github.com/muguangzhuri/muzi.github.io/raw/master/images/logo.jpg
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/ico.png
+favicon: https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/ico.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete

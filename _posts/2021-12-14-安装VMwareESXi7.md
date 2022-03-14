@@ -19,7 +19,7 @@ music-id: 505446396
 
 ​	下载 VMware-PowerCLI-11.5.0-14912921.zip，并解压，把解压出来的模块文件夹放到`C:\Program Files\WindowsPowerShell\Modules`
 
-![image-20210622134711941](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622134711941.png)
+![image-20210622134711941](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622134711941.png)
 
 ### ESXi-Customizer-PS
 
@@ -69,7 +69,7 @@ https://pan.baidu.com/s/1EhkFbVpUonMarpMV4AvOIQ 提取码: itsc
 
 关于查找驱动的说明：一般在VMware官网可以下载到大部分驱动，除非硬件很特别，则需联系厂商。 驱动说明：集成的驱动可以是vib格式文件，也可以是offline_bundle.zip文件。我们下载的驱动是压缩包，里面包含vib文件和offline_bundle.zip文件，需要提取二者之一来使用，不能直接使用下载的zip文件。vib文件很好辨认，如何确认下载的zip是offline_bundle.zip 还是二者的一个压缩包。首先，离线bundle驱动包，一般会以offline_bundle命名，其次，离线包包含下面内容
 
-![image-20210622135911173](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622135911173.png)
+![image-20210622135911173](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622135911173.png)
 
 ## 四、集成驱动
 
@@ -77,7 +77,7 @@ https://pan.baidu.com/s/1EhkFbVpUonMarpMV4AvOIQ 提取码: itsc
 
  [VMW_bootbank_ne1000-intelnuc_0.8.4-3vmw.670.0.0.8169922.vib](f:\Users\Administrator\Downloads\VMwareESXi\drivers\VMW_bootbank_ne1000-intelnuc_0.8.4-3vmw.670.0.0.8169922.vib) 
 
-![image-20210622134446148](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622134446148.png)
+![image-20210622134446148](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622134446148.png)
 
 PowerShell 执行
 
@@ -111,7 +111,7 @@ Exporting the Imageprofile to 'F:\Users\Administrator\Downloads\VMwareESXi\ESXi-
 All done.
 ```
 
-![image-20210622120203708](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622120203708.png)
+![image-20210622120203708](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20210622120203708.png)
 
 
 
@@ -126,13 +126,13 @@ Get-ExecutionPolicy -List
 
 Unblock-File  D:\ATT&CK\VMwareESXi7-x\ESXi-Customizer-PS-v2.6.0.ps1
 
-![image-20211214110120075](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20211214110120075.png)
+![image-20211214110120075](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20211214110120075.png)
 
 ```
  .\ESXi-Customizer-PS-v2.6.0.ps1 -izip .\VMware-ESXi-7.0.0-14896552-depot.zip -pkgDir .\drivers
 ```
 
-![image-20211214110050377](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20211214110050377.png)
+![image-20211214110050377](https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/master/images/%E5%AE%89%E8%A3%85VMwareESXi7.assets/image-20211214110050377.png)
 
 ## 五、修改BIOS
 
