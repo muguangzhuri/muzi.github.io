@@ -3,19 +3,18 @@
 #
 
 # Name of your site (displayed in the header)
-name: "暮光烛日 博客"
+name: "lemon's blog"
 # Short bio or description (displayed in the header)
-description: "「网络安全技术学堂」分享、记录、成长"
+description: "个人技术公众号「后端技术学堂」分享、记录、成长"
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/logo.jpg
-#avatar: https://github.com/muguangzhuri/muzi.github.io/raw/master/images/logo.jpg
+avatar: https://github.com/lemonchann/images/raw/master/gzh/公众号二维码.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://raw.githubusercontent.com/muguangzhuri/muzi.github.io/main/images/ico.png
+favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/favicon.ico
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -40,12 +39,11 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: 
-  csdn: https://blog.csdn.net/weixin_43886198?spm=1000.2115.3001.5343
-  email: muguangzhuri@gmail.com
-  github: muguangzhuri 
+  zhihu: ning-meng-cheng-31-94
+  email: lemonchann@foxmail.com
   facebook:
   flickr:
+  github: lemonchann 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -65,17 +63,17 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: b10d309fd5f5ce217c9d
-  clientSecret: 5d1c84967d23f9cbcaeb1a3bca945b67acb78d56
-  repo: muguangzhuri.github.io
-  owner: muguangzhuri
+  clientID: bd65d5c0df878155b7fa
+  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  repo: lemonchann.github.io
+  owner: lemonchann
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://muguangzhuri.github.io
+url: https://lemonchann.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
